@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8815" started-at="2021-05-20T10:21:18Z" finished-at="2021-05-20T10:21:27Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.PageSpeed.CucumberOptions.TestRunner@7fc229ab]" name="feature" class="com.PageSpeed.CucumberOptions.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="8815" started-at="2021-05-20T10:21:18Z" finished-at="2021-05-20T10:21:27Z">
+      <class name="com.PageSpeed.CucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setupclass()[pri:0, instance:com.PageSpeed.CucumberOptions.TestRunner@7fc229ab]" name="setupclass" is-config="true" duration-ms="401" started-at="2021-05-20T10:21:18Z" finished-at="2021-05-20T10:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupclass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.PageSpeed.CucumberOptions.TestRunner@7fc229ab]" name="feature" duration-ms="4854" started-at="2021-05-20T10:21:19Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-20T10:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validating add board API]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.PageSpeed.CucumberOptions.TestRunner@7fc229ab]" name="feature" duration-ms="1196" started-at="2021-05-20T10:21:24Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-20T10:21:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin login functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.PageSpeed.CucumberOptions.TestRunner@7fc229ab]" name="feature" duration-ms="733" started-at="2021-05-20T10:21:25Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-20T10:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search student functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.PageSpeed.CucumberOptions.TestRunner@7fc229ab]" name="feature" duration-ms="819" started-at="2021-05-20T10:21:26Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-20T10:21:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Student login functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.PageSpeed.CucumberOptions.TestRunner@7fc229ab]" name="feature" duration-ms="619" started-at="2021-05-20T10:21:27Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-20T10:21:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Student verify OTP functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teatdownclass()[pri:0, instance:com.PageSpeed.CucumberOptions.TestRunner@7fc229ab]" name="teatdownclass" is-config="true" duration-ms="30" started-at="2021-05-20T10:21:27Z" finished-at="2021-05-20T10:21:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatdownclass -->
+      </class> <!-- com.PageSpeed.CucumberOptions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

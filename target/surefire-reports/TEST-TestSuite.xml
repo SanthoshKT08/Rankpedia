@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="10.709" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_231\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Ktsan\eclipse-workspace\Rankepedia_Student"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Ktsan\eclipse-workspace\Rankepedia_Student"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_231\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ktsan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Ktsan\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2326241379963689921.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_231/bin/server;C:/Program Files/Java/jre1.8.0_231/bin;C:/Program Files/Java/jre1.8.0_231/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\nodejs\;D:\Testing Tools\Maven\apache-maven-3.8.1\bin;C:\Users\Ktsan\AppData\Local\Microsoft\WindowsApps;C:\Users\Ktsan\AppData\Roaming\npm;C:\Users\Ktsan\eclipse\java-2020-06\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Ktsan"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Ktsan"/>
+    <property name="java.class.path" value="C:\Users\Ktsan\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_231"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_231\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_231\lib\resources.jar;C:\Program Files\Java\jre1.8.0_231\lib\rt.jar;C:\Program Files\Java\jre1.8.0_231\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_231\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_231\lib\jce.jar;C:\Program Files\Java\jre1.8.0_231\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_231\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_231\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Ktsan\eclipse-workspace\Rankepedia_Student\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="com.PageSpeed.CucumberOptions.TestRunner" time="4.463">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;201&gt;.&#10;" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: 
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <201>.
+
+	at com.PageSpeed.CucumberOptions.TestRunner.feature(TestRunner.java:29)
+Caused by: java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <201>.
+
+]]></failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Feature: Validating add board API
+
+  Scenario: Verify if add board API creating &amp#27;[90m# AddBoard.feature:2&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd board payload&amp#27;[0m                  &amp#27;[90m# AddBoard.add_board_payload()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31msend post request&amp#27;[0m                   &amp#27;[90m# AddBoard.send_post_request()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+      Expected status code <200> but was <201>.
+      
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+      	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+      	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+      	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+      	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+      	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+      	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+      	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+      	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+      	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+      	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+      	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+      	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+      	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
+      	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+      	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+      	at java.lang.reflect.Method.invoke(Unknown Source)
+      	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+      	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+      	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+      	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+      	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
+      	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
+      	at com.PageSpeed.StepDefinitions.AddBoard.send_post_request(AddBoard.java:51)
+      	at ?.When send post request(AddBoard.feature:4)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36massert status code&amp#27;[0m                  &amp#27;[90m# AddBoard.assert_status_code()&amp#27;[0m
+Request method:	GET
+Request URI:	https://3k06rt8n4h.execute-api.ap-south-1.amazonaws.com/local/api/board/getAllBoards
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 646
+Connection: keep-alive
+Date: Thu, 20 May 2021 10:10:29 GMT
+x-amzn-RequestId: aae806ff-57e2-4fb8-8e63-0638ab53a34d
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+content-encoding: gzip
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-download-options: noopen
+x-amz-apigw-id: fn1PaEHUBcwFjOQ=
+vary: Accept-Encoding
+x-content-type-options: nosniff
+etag: W/"5cc-BPfHXD2yuviEB8xX95VBNMK5dCU"
+X-Amzn-Trace-Id: Root=1-60a63595-65bef604269ff7a77306bd8a;Sampled=0
+X-Cache: Miss from cloudfront
+Via: 1.1 fc8f6f5db62e3d9ab7b957f0cfeacf8d.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-C3
+X-Amz-Cf-Id: 3AvnyX9jIMd8UP49U8Yw9tqtc9lKxC0dM3wmvxSCC4qHNNVTHOSFBA==
+
+{
+    "status": "success",
+    "boards": [
+        {
+            "_id": "607d70dee1e48a0600293a43",
+            "name": "STATE",
+            "active": true,
+            "description": "hello",
+            "logo": "state.png",
+            "__v": 0
+        },
+        {
+            "_id": "60802b0a9d81d500080637a4",
+            "name": "TEST",
+            "active": true,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "logo": "https://s3.ap-south-1.amazonaws.com/rankpedia-images/1619012266637-rankpedia-dummyEagle.jpg",
+            "__v": 0
+        },
+        {
+            "_id": "6082630c3514b3000901aec4",
+            "name": "MAHARASHTRA",
+            "active": true,
+            "description": "APEX",
+            "logo": "https://s3.ap-south-1.amazonaws.com/rankpedia-images/1619157761106-rankpedia-IMG-3971.jpg",
+            "__v": 0
+        },
+        {
+            "_id": "609cf5d0505aa30008660b1b",
+            "name": "CBSE",
+            "active": true,
+            "description": "The Central Board of Secondary Education (CBSE) is a national level board of education in India for public and private schools, controlled and managed by Union Government of India",
+            "logo": "state.png",
+            "__v": 0
+        },
+        {
+            "_id": "60a54215042a18296c38b18e",
+            "name": "National talent Search Exam",
+            "active": true,
+            "description": "A national level examination cum scholarship program, it is one of the most competitive exams for school students",
+            "logo": "NTSE.png",
+            "type": "competitive",
+            "__v": 0
+        },
+        {
+            "_id": "60a6302b57b2360008124fd4",
+            "name": "My National board",
+            "active": true,
+            "description": "A national level examination cum scholarship program, it is one of the most competitive exams for school students",
+            "logo": "NTSE.png",
+            "type": "competitive",
+            "__v": 0
+        }
+    ]
+}
+6
+STATE
+TEST
+MAHARASHTRA
+CBSE
+National talent Search Exam
+My National board
+
+  @getboard
+  Scenario: Verify if GET board API request &amp#27;[90m# AddBoard.feature:7&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGET board&amp#27;[0m                         &amp#27;[90m# AddBoard.get_board()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msend GET request&amp#27;[0m                   &amp#27;[90m# AddBoard.send_get_request()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32massert reponse&amp#27;[0m                     &amp#27;[90m# AddBoard.assert_reponse()&amp#27;[0m
+Request method:	POST
+Request URI:	https://3k06rt8n4h.execute-api.ap-south-1.amazonaws.com/local/api/board/deleteBoard
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "null"
+}
+HTTP/1.1 500 Internal Server Error
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Connection: keep-alive
+Date: Thu, 20 May 2021 10:10:30 GMT
+x-amzn-RequestId: b73ead94-e422-49e4-9d8c-d1cf4592287f
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 34
+x-download-options: noopen
+x-amz-apigw-id: fn1PmG-AhcwFfgg=
+vary: Accept-Encoding
+x-content-type-options: nosniff
+etag: W/"22-lNHfU66JPhhaw2jL+mxk/qJ12Pw"
+X-Amzn-Trace-Id: Root=1-60a63596-72ad3c3830b3e1d601b1468b;Sampled=0
+X-Cache: Error from cloudfront
+Via: 1.1 d8ce705b755554c52f010dcc8577f171.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-C3
+X-Amz-Cf-Id: XnE3keJYzObzVrbFpmkQQa_QhcwgK6vh3hFYpm0Br8zoAzsLTxm-zw==
+
+{
+    "status": "Internal Server error"
+}
+
+  Scenario: Verify if Delete board API request &amp#27;[90m# AddBoard.feature:12&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mDelete board&amp#27;[0m                         &amp#27;[90m# AddBoard.delete_board()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31msend Post request for delete&amp#27;[0m          &amp#27;[90m# AddBoard.send_post_request_for_delete()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+      Expected status code <200> but was <500>.
+      
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+      	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+      	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+      	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+      	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+      	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+      	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+      	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+      	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
+      	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+      	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+      	at java.lang.reflect.Method.invoke(Unknown Source)
+      	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+      	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+      	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+      	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+      	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
+      	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
+      	at com.PageSpeed.StepDefinitions.AddBoard.send_post_request_for_delete(AddBoard.java:105)
+      	at ?.When send Post request for delete(AddBoard.feature:14)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36massert reponse for delete&amp#27;[0m             &amp#27;[90m# AddBoard.assert_reponse_for_delete()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="feature" classname="com.PageSpeed.CucumberOptions.TestRunner" time="1.206"/>
+  <testcase name="feature" classname="com.PageSpeed.CucumberOptions.TestRunner" time="0.897"/>
+  <testcase name="feature" classname="com.PageSpeed.CucumberOptions.TestRunner" time="0.754"/>
+  <testcase name="feature" classname="com.PageSpeed.CucumberOptions.TestRunner" time="0.558"/>
+</testsuite>

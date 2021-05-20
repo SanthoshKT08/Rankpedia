@@ -1,0 +1,242 @@
+Request method:	POST
+Request URI:	https://3k06rt8n4h.execute-api.ap-south-1.amazonaws.com/local/api/board/addBoard
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Testing",
+    "description": "Hello board",
+    "logo": "NTSE.png",
+    "type": "competitive"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 20
+Connection: keep-alive
+Date: Thu, 20 May 2021 10:21:22 GMT
+x-amzn-RequestId: a886cc85-d34b-4954-afa2-215b98073252
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 20
+x-download-options: noopen
+x-amz-apigw-id: fn21bGqyhcwFo0g=
+vary: Accept-Encoding
+x-content-type-options: nosniff
+etag: W/"14-Y53wuE/mmbSikKcT/WualL1N65U"
+X-Amzn-Trace-Id: Root=1-60a63822-1fc118183bede81f1989875a;Sampled=0
+X-Cache: Miss from cloudfront
+Via: 1.1 640bcab08325d6b71cae1ec5124e1992.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-C3
+X-Amz-Cf-Id: abHHUbYdd8ZBPJvljarGsBanYk_I-oS0P8c0scyHqX95UY4KxLNUtg==
+
+{
+    "status": "success"
+}
+Request method:	POST
+Request URI:	https://3k06rt8n4h.execute-api.ap-south-1.amazonaws.com/local/api/board/deleteBoard
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "60a638226b7c49000981fe45"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 20
+Connection: keep-alive
+Date: Thu, 20 May 2021 10:21:25 GMT
+x-amzn-RequestId: 911005e7-b51e-4cea-a7ea-aaff79f4afe7
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 20
+x-download-options: noopen
+x-amz-apigw-id: fn210EUrBcwFR0A=
+vary: Accept-Encoding
+x-content-type-options: nosniff
+etag: W/"14-Y53wuE/mmbSikKcT/WualL1N65U"
+X-Amzn-Trace-Id: Root=1-60a63825-50066d6701ad83ec2c6c8658;Sampled=0
+X-Cache: Miss from cloudfront
+Via: 1.1 d9326ccd9209864381f276d84e72b9ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-C3
+X-Amz-Cf-Id: rxNpMOcgM6Wo56bLE9YRh-5yF4vB3Dnbx8fnWFogYXOw6AKxbhxV7w==
+
+{
+    "status": "success"
+}
+Request method:	POST
+Request URI:	https://3k06rt8n4h.execute-api.ap-south-1.amazonaws.com/local/api/admin/adminLogin
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "superadmin",
+    "password": "123456"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 83
+Connection: keep-alive
+Date: Thu, 20 May 2021 10:21:26 GMT
+x-amzn-RequestId: ebb519ca-3477-4b2f-a75a-a9c362935a76
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 83
+x-download-options: noopen
+x-amz-apigw-id: fn21_EsmhcwFaAw=
+vary: Accept-Encoding
+x-content-type-options: nosniff
+etag: W/"53-dEZsoagHbeg4puS8Pq5D7DcAlNo"
+X-Amzn-Trace-Id: Root=1-60a63826-14a08f152e500f0a3a964604;Sampled=0
+X-Cache: Miss from cloudfront
+Via: 1.1 a1ad4ff9e960c7029b2239aa3f8d36d8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-C3
+X-Amz-Cf-Id: 27M6rLK3hIG30h6S_XDPO955fnYcl-IpMwNODsqAhy-Hl5utjMONPQ==
+
+{
+    "status": "success",
+    "admin": {
+        "_id": "60814422f9f6cb34941b539b",
+        "password": "123456"
+    }
+}
+Request method:	POST
+Request URI:	https://3k06rt8n4h.execute-api.ap-south-1.amazonaws.com/local/api/students/sendOtp
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "phone_number": "9788304403"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 33
+Connection: keep-alive
+Date: Thu, 20 May 2021 10:21:27 GMT
+x-amzn-RequestId: 7cc2ac8b-01a7-48e0-8ccd-6d4dd79f8733
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 33
+x-download-options: noopen
+x-amz-apigw-id: fn22OGpYBcwFmtw=
+vary: Accept-Encoding
+x-content-type-options: nosniff
+etag: W/"21-K+mYWZWPfpnu4zU1XXJrBnbVZrs"
+X-Amzn-Trace-Id: Root=1-60a63827-6443f8176b6c209f468e838a;Sampled=0
+X-Cache: Miss from cloudfront
+Via: 1.1 1dcc49a23bc120bacea6908705181f59.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-C3
+X-Amz-Cf-Id: 3BTEY3sHZo6xVKtMemXADdaRKsnuRF3NB_bw5Tg0_WgjSvOu9k2_mg==
+
+{
+    "status": "success",
+    "otp": 751364
+}
+Request method:	POST
+Request URI:	https://3k06rt8n4h.execute-api.ap-south-1.amazonaws.com/local/api/students/verifyOtp
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "otp": "751364",
+    "phone_number": "9788304403"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 701
+Connection: keep-alive
+Date: Thu, 20 May 2021 10:21:28 GMT
+x-amzn-RequestId: 3df3500a-d772-4ac8-b158-2b36395650d6
+x-dns-prefetch-control: off
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+strict-transport-security: max-age=15552000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-amzn-Remapped-content-length: 701
+x-download-options: noopen
+x-amz-apigw-id: fn22VHCBhcwFnuQ=
+vary: Accept-Encoding
+x-content-type-options: nosniff
+etag: W/"2bd-RGEVQy2tdMCYN3VGqtok9KYpgbs"
+X-Amzn-Trace-Id: Root=1-60a63828-132ffa6d55ace5a4553b11c7;Sampled=0
+X-Cache: Miss from cloudfront
+Via: 1.1 82154dab357d47bdeceb8ce8d43233f2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-C3
+X-Amz-Cf-Id: ZC1q2r8MFtjNtmOSsiayKeKjPRCIq6ZQ4exV1GAiyIdax615WVz9sA==
+
+{
+    "status": "success",
+    "message": "OTP matched",
+    "student": {
+        "_id": "60a3bcc48cf0ec0c697fc6e1",
+        "phone": 9788304403,
+        "__v": 0,
+        "otp": "751364",
+        "active": true,
+        "board": "607d70dee1e48a0600293a43",
+        "city": "Hosur",
+        "class": "6086f08e33ebb30008ee3798",
+        "division": null,
+        "dob": "2021-05-18T13:12:03.142Z",
+        "email": null,
+        "gender": "male",
+        "name": "Thulasiraman",
+        "nationality": null,
+        "onboarded_through": "web",
+        "parentsDetails": {
+            "name": "Muniramudu",
+            "phone": "9788304403"
+        },
+        "profile_pic": null,
+        "religion": null,
+        "school": "60814c946242844204655d1d",
+        "state": null,
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwYTNiY2M0OGNmMGVjMGM2OTdmYzZlMSIsImlhdCI6MTYyMTM0MzUyMywiZXhwIjoxNjIxNDI5OTIzfQ.gs3OgubAtgDjBESesEwhhGGF6UeK19OHCV_DjWu7lZE"
+    }
+}

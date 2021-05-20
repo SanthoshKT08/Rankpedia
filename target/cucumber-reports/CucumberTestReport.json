@@ -1,0 +1,404 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verify if add board API creating",
+        "description": "",
+        "id": "validating-add-board-api;verify-if-add-board-api-creating",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 892202000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "add board payload",
+            "match": {
+              "location": "AddBoard.add_board_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1846963399,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "send post request",
+            "match": {
+              "location": "AddBoard.send_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671801500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "assert status code",
+            "match": {
+              "location": "AddBoard.assert_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Verify if GET board API request",
+        "description": "",
+        "id": "validating-add-board-api;verify-if-get-board-api-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 604144199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "GET board",
+            "match": {
+              "location": "AddBoard.get_board()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9979800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "send GET request",
+            "match": {
+              "location": "AddBoard.send_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282502601,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "assert reponse",
+            "match": {
+              "location": "AddBoard.assert_reponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@getboard"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verify if Delete board API request",
+        "description": "",
+        "id": "validating-add-board-api;verify-if-delete-board-api-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2155101,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Delete board",
+            "match": {
+              "location": "AddBoard.delete_board()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 459381200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "send Post request for delete",
+            "match": {
+              "location": "AddBoard.send_post_request_for_delete()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30182701,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "assert reponse for delete",
+            "match": {
+              "location": "AddBoard.assert_reponse_for_delete()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating add board API",
+    "description": "",
+    "id": "validating-add-board-api",
+    "keyword": "Feature",
+    "uri": "AddBoard.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify if admin can able to login with valid credentials",
+        "description": "",
+        "id": "admin-login-functionality;verify-if-admin-can-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 621784001,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin username and password",
+            "match": {
+              "location": "AdminLogin.admin_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 519483699,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin calls post request",
+            "match": {
+              "location": "AdminLogin.admin_calls_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41448999,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "response got successfully",
+            "match": {
+              "location": "AdminLogin.response_got_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Adminlogin"
+          }
+        ]
+      }
+    ],
+    "name": "Admin login functionality",
+    "description": "",
+    "id": "admin-login-functionality",
+    "keyword": "Feature",
+    "uri": "AdminLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify if tester can able to search student",
+        "description": "",
+        "id": "search-student-functionality;verify-if-tester-can-able-to-search-student",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13615201,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "preconditions params",
+            "match": {
+              "location": "StudentSearch.preconditions_params()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 545610501,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "teser calls GET request",
+            "match": {
+              "location": "StudentSearch.teser_calls_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162641100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "response got successfully for search student",
+            "match": {
+              "location": "StudentSearch.response_got_successfully_for_search_student()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Search student functionality",
+    "description": "",
+    "id": "search-student-functionality",
+    "keyword": "Feature",
+    "uri": "GetstudentBySearch.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify if student can able to login with valid phone number",
+        "description": "",
+        "id": "student-login-functionality;verify-if-student-can-able-to-login-with-valid-phone-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18271800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Student enter the phone number payload",
+            "match": {
+              "location": "StudentLogin.student_enter_the_phone_number_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 618473500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Student hit the post request",
+            "match": {
+              "location": "StudentLogin.student_hit_the_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168836600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check the status code",
+            "match": {
+              "location": "StudentLogin.check_the_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@studentLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Student login functionality",
+    "description": "",
+    "id": "student-login-functionality",
+    "keyword": "Feature",
+    "uri": "StudentLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify if student can able to verify the OTP",
+        "description": "",
+        "id": "student-verify-otp-functionality;verify-if-student-can-able-to-verify-the-otp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13331100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Student enter the OTP payload",
+            "match": {
+              "location": "VerifyOTP.student_enter_the_otp_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 548601300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Student hit the post request for OTP",
+            "match": {
+              "location": "VerifyOTP.student_hit_the_post_request_for_otp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47842000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check the status code for verify OTP",
+            "match": {
+              "location": "VerifyOTP.check_the_status_code_for_verify_otp()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@VerifyOTP"
+          }
+        ]
+      }
+    ],
+    "name": "Student verify OTP functionality",
+    "description": "",
+    "id": "student-verify-otp-functionality",
+    "keyword": "Feature",
+    "uri": "VerifyOTP.feature"
+  }
+]
