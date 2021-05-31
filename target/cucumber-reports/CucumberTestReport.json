@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 2,
+        "line": 4,
         "name": "Verify if add board API creating",
         "description": "",
         "id": "validating-add-board-api;verify-if-add-board-api-creating",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 892202000,
+              "duration": 1240388000,
               "status": "passed"
             },
-            "line": 3,
+            "line": 5,
             "name": "add board payload",
             "match": {
               "location": "AddBoard.add_board_payload()"
@@ -24,10 +24,10 @@
           },
           {
             "result": {
-              "duration": 1846963399,
+              "duration": 2011559700,
               "status": "passed"
             },
-            "line": 4,
+            "line": 6,
             "name": "send post request",
             "match": {
               "location": "AddBoard.send_post_request()"
@@ -36,20 +36,26 @@
           },
           {
             "result": {
-              "duration": 671801500,
+              "duration": 1167916000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "assert status code",
             "match": {
               "location": "AddBoard.assert_status_code()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Add1"
+          }
         ]
       },
       {
-        "line": 7,
+        "line": 9,
         "name": "Verify if GET board API request",
         "description": "",
         "id": "validating-add-board-api;verify-if-get-board-api-request",
@@ -58,10 +64,10 @@
         "steps": [
           {
             "result": {
-              "duration": 604144199,
+              "duration": 638729500,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "GET board",
             "match": {
               "location": "AddBoard.get_board()"
@@ -70,10 +76,10 @@
           },
           {
             "result": {
-              "duration": 9979800,
+              "duration": 11033000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 11,
             "name": "send GET request",
             "match": {
               "location": "AddBoard.send_get_request()"
@@ -82,10 +88,10 @@
           },
           {
             "result": {
-              "duration": 282502601,
+              "duration": 334285300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 12,
             "name": "assert reponse",
             "match": {
               "location": "AddBoard.assert_reponse()"
@@ -95,13 +101,13 @@
         ],
         "tags": [
           {
-            "line": 6,
-            "name": "@getboard"
+            "line": 8,
+            "name": "@Add2"
           }
         ]
       },
       {
-        "line": 12,
+        "line": 14,
         "name": "Verify if Delete board API request",
         "description": "",
         "id": "validating-add-board-api;verify-if-delete-board-api-request",
@@ -110,10 +116,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2155101,
+              "duration": 7715200,
               "status": "passed"
             },
-            "line": 13,
+            "line": 15,
             "name": "Delete board",
             "match": {
               "location": "AddBoard.delete_board()"
@@ -122,10 +128,10 @@
           },
           {
             "result": {
-              "duration": 459381200,
+              "duration": 765012200,
               "status": "passed"
             },
-            "line": 14,
+            "line": 16,
             "name": "send Post request for delete",
             "match": {
               "location": "AddBoard.send_post_request_for_delete()"
@@ -134,15 +140,21 @@
           },
           {
             "result": {
-              "duration": 30182701,
+              "duration": 19670200,
               "status": "passed"
             },
-            "line": 15,
+            "line": 17,
             "name": "assert reponse for delete",
             "match": {
               "location": "AddBoard.assert_reponse_for_delete()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Add3"
           }
         ]
       }
@@ -158,6 +170,222 @@
     "elements": [
       {
         "line": 3,
+        "name": "Verify if add class API creating",
+        "description": "",
+        "id": "validating-add-class-api;verify-if-add-class-api-creating",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 610628800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "add class payload",
+            "match": {
+              "location": "AddClass.add_class_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 575948000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "add class post request",
+            "match": {
+              "location": "AddClass.add_class_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17919300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "add class assert 200",
+            "match": {
+              "location": "AddClass.add_class_assert_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@AddClass"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Verify Get class API",
+        "description": "",
+        "id": "validating-add-class-api;verify-get-class-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 627278600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Get resource for class",
+            "match": {
+              "location": "AddClass.get_resource_for_class()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 251700500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the Get class status code 200",
+            "match": {
+              "location": "AddClass.verify_the_get_class_status_code_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@GetAllClass"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify Delete class API",
+        "description": "",
+        "id": "validating-add-class-api;verify-delete-class-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3465600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "send delete payload",
+            "match": {
+              "location": "AddClass.send_delete_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 557413500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Set path resource fot Delete class",
+            "match": {
+              "location": "AddClass.set_path_resource_fot_delete_class()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17805400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify Delete class status code 200",
+            "match": {
+              "location": "AddClass.verify_delete_class_status_code_200()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@DeleteClass"
+          }
+        ]
+      }
+    ],
+    "name": "Validating add class API",
+    "description": "",
+    "id": "validating-add-class-api",
+    "keyword": "Feature",
+    "uri": "AddClass.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify if add student API creating",
+        "description": "",
+        "id": "validating-add-student-api;verify-if-add-student-api-creating",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3493800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "student add student payload",
+            "match": {
+              "location": "AddStudent.student_add_student_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 522942400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "student send post request for add student",
+            "match": {
+              "location": "AddStudent.student_send_post_request_for_add_student()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1955000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Student assert status code for add student",
+            "match": {
+              "location": "AddStudent.student_assert_status_code_for_add_student()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@addStudent"
+          }
+        ]
+      }
+    ],
+    "name": "Validating add student API",
+    "description": "",
+    "id": "validating-add-student-api",
+    "keyword": "Feature",
+    "uri": "AddStudent.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
         "name": "Verify if admin can able to login with valid credentials",
         "description": "",
         "id": "admin-login-functionality;verify-if-admin-can-able-to-login-with-valid-credentials",
@@ -166,7 +394,7 @@
         "steps": [
           {
             "result": {
-              "duration": 621784001,
+              "duration": 8257200,
               "status": "passed"
             },
             "line": 4,
@@ -178,7 +406,7 @@
           },
           {
             "result": {
-              "duration": 519483699,
+              "duration": 512448800,
               "status": "passed"
             },
             "line": 5,
@@ -190,7 +418,7 @@
           },
           {
             "result": {
-              "duration": 41448999,
+              "duration": 25797700,
               "status": "passed"
             },
             "line": 6,
@@ -228,7 +456,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13615201,
+              "duration": 7987800,
               "status": "passed"
             },
             "line": 4,
@@ -240,7 +468,7 @@
           },
           {
             "result": {
-              "duration": 545610501,
+              "duration": 509373800,
               "status": "passed"
             },
             "line": 5,
@@ -252,7 +480,7 @@
           },
           {
             "result": {
-              "duration": 162641100,
+              "duration": 64378100,
               "status": "passed"
             },
             "line": 6,
@@ -290,7 +518,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18271800,
+              "duration": 6703700,
               "status": "passed"
             },
             "line": 4,
@@ -302,7 +530,7 @@
           },
           {
             "result": {
-              "duration": 618473500,
+              "duration": 488472300,
               "status": "passed"
             },
             "line": 5,
@@ -314,7 +542,7 @@
           },
           {
             "result": {
-              "duration": 168836600,
+              "duration": 52004800,
               "status": "passed"
             },
             "line": 6,
@@ -352,7 +580,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13331100,
+              "duration": 7504100,
               "status": "passed"
             },
             "line": 4,
@@ -364,7 +592,7 @@
           },
           {
             "result": {
-              "duration": 548601300,
+              "duration": 481368000,
               "status": "passed"
             },
             "line": 5,
@@ -376,7 +604,7 @@
           },
           {
             "result": {
-              "duration": 47842000,
+              "duration": 13328700,
               "status": "passed"
             },
             "line": 6,

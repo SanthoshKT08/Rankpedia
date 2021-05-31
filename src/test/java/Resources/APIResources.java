@@ -2,10 +2,11 @@ package Resources;
 
 public enum APIResources {
 	
-    //Define methodsd like this syntax..
+    //Define methods like this syntax..
 	AddBoardAPI("/board/addBoard"),
 	GetBoardAPI(""),
 	DeleteBoardAPI("/board/deleteBoard");
+	
 	
 	
 	public String resource;

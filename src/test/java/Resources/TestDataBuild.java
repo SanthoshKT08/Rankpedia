@@ -1,5 +1,6 @@
 package Resources;
 
+import Pojo.AddClass;
 import Pojo.AdminLogin;
 import Pojo.OTPVerify;
 import Pojo.StudentLogin;
@@ -10,7 +11,7 @@ public class TestDataBuild {
 	{
 		return "{\r\n" + 
 				"	\"name\":\"Testing\",\r\n" + 
-				"	\"description\":\"Hello board\",\r\n" + 
+				"	\"description\":\"A national school students\",\r\n" + 
 				"	\"logo\":\"NTSE.png\",\r\n" + 
 				"	\"type\":\"competitive\"\r\n" + 
 				"}";
@@ -45,5 +46,16 @@ public class TestDataBuild {
 		otp.setOtp(OTP);
 		return otp;
 	}
+	
+	public AddClass addClassPayload()
+	{
+		AddClass ac = new AddClass();
+		ac.setName("Class 12 - Testing");
+		ac.setDivision("A");
+		ac.setBoard("60a54215042a18296c38b18e");
+		return ac;
+		
+	}
+	
 
 }

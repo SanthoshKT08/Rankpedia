@@ -1,0 +1,12 @@
+com\Rankpedia\StepDefinitions\AddClass.class
+com\Rankpedia\StepDefinitions\VerifyOTP.class
+Resources\APIResources.class
+com\Rankpedia\StepDefinitions\AdminLogin.class
+Resources\TestDataBuild.class
+com\Rankpedia\CucumberOptions\TestRunner.class
+com\Rankpedia\StepDefinitions\StudentSearch.class
+Resources\Utiles.class
+com\Rankpedia\StepDefinitions\AddStudent.class
+com\Rankpedia\StepDefinitions\AddBoard.class
+com\Rankpedia\StepDefinitions\StudentLogin.class
+Resources\ReadConfigProperties.class

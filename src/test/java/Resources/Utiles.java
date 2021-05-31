@@ -9,6 +9,7 @@ import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
@@ -36,6 +37,11 @@ public class Utiles {
 	{
 		res = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 		return res;
+	}
+	
+	public static JsonPath json(String value)
+	{
+	     return new JsonPath(value);	
 	}
 
 }

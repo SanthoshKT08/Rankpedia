@@ -1,0 +1,6 @@
+Pojo\AddStudent.class
+Pojo\GetStudentOTP.class
+Pojo\AddClass.class
+Pojo\AdminLogin.class
+Pojo\StudentLogin.class
+Pojo\OTPVerify.class
