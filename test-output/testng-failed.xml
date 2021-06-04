@@ -6,7 +6,7 @@
       <class name="com.Rankpedia.CucumberOptions.TestRunner">
         <methods>
           <include name="setupclass"/>
-          <include name="feature" invocation-numbers="1"/>
+          <include name="feature" invocation-numbers="0"/>
           <include name="teatdownclass"/>
         </methods>
       </class> <!-- com.Rankpedia.CucumberOptions.TestRunner -->

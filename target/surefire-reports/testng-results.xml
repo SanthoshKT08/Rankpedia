@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12160" started-at="2021-05-31T17:24:26Z" finished-at="2021-05-31T17:24:38Z">
+  <suite name="Suite" duration-ms="13033" started-at="2021-06-01T14:20:03Z" finished-at="2021-06-01T14:20:16Z">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@7364985f]" name="feature" class="com.Rankpedia.CucumberOptions.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@6a472554]" name="feature" class="com.Rankpedia.CucumberOptions.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="12160" started-at="2021-05-31T17:24:26Z" finished-at="2021-05-31T17:24:38Z">
+    <test name="Test" duration-ms="13033" started-at="2021-06-01T14:20:03Z" finished-at="2021-06-01T14:20:16Z">
       <class name="com.Rankpedia.CucumberOptions.TestRunner">
-        <test-method status="PASS" signature="setupclass()[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@7364985f]" name="setupclass" is-config="true" duration-ms="298" started-at="2021-05-31T17:24:26Z" finished-at="2021-05-31T17:24:26Z">
+        <test-method status="PASS" signature="setupclass()[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@6a472554]" name="setupclass" is-config="true" duration-ms="266" started-at="2021-06-01T14:20:03Z" finished-at="2021-06-01T14:20:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupclass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@7364985f]" name="feature" duration-ms="6267" started-at="2021-05-31T17:24:26Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-31T17:24:32Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@6a472554]" name="feature" duration-ms="7138" started-at="2021-06-01T14:20:03Z" description="Run cucumber features" data-provider="features" finished-at="2021-06-01T14:20:10Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@7364985f]" name="feature" duration-ms="2680" started-at="2021-05-31T17:24:32Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-31T17:24:35Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@6a472554]" name="feature" duration-ms="2664" started-at="2021-06-01T14:20:10Z" description="Run cucumber features" data-provider="features" finished-at="2021-06-01T14:20:13Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@7364985f]" name="feature" duration-ms="533" started-at="2021-05-31T17:24:35Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-31T17:24:36Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@6a472554]" name="feature" duration-ms="454" started-at="2021-06-01T14:20:13Z" description="Run cucumber features" data-provider="features" finished-at="2021-06-01T14:20:14Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@7364985f]" name="feature" duration-ms="553" started-at="2021-05-31T17:24:36Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-31T17:24:36Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@6a472554]" name="feature" duration-ms="538" started-at="2021-06-01T14:20:14Z" description="Run cucumber features" data-provider="features" finished-at="2021-06-01T14:20:14Z">
           <params>
             <param index="0">
               <value>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@7364985f]" name="feature" duration-ms="586" started-at="2021-05-31T17:24:36Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-31T17:24:37Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@6a472554]" name="feature" duration-ms="610" started-at="2021-06-01T14:20:14Z" description="Run cucumber features" data-provider="features" finished-at="2021-06-01T14:20:15Z">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@7364985f]" name="feature" duration-ms="551" started-at="2021-05-31T17:24:37Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-31T17:24:37Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@6a472554]" name="feature" duration-ms="634" started-at="2021-06-01T14:20:15Z" description="Run cucumber features" data-provider="features" finished-at="2021-06-01T14:20:15Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@7364985f]" name="feature" duration-ms="506" started-at="2021-05-31T17:24:37Z" description="Run cucumber features" data-provider="features" finished-at="2021-05-31T17:24:38Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@6a472554]" name="feature" duration-ms="537" started-at="2021-06-01T14:20:15Z" description="Run cucumber features" data-provider="features" finished-at="2021-06-01T14:20:16Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="teatdownclass()[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@7364985f]" name="teatdownclass" is-config="true" duration-ms="25" started-at="2021-05-31T17:24:38Z" finished-at="2021-05-31T17:24:38Z">
+        <test-method status="PASS" signature="teatdownclass()[pri:0, instance:com.Rankpedia.CucumberOptions.TestRunner@6a472554]" name="teatdownclass" is-config="true" duration-ms="42" started-at="2021-06-01T14:20:16Z" finished-at="2021-06-01T14:20:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatdownclass -->

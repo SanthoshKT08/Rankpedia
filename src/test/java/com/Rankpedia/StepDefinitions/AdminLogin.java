@@ -19,26 +19,26 @@ import io.restassured.specification.RequestSpecification;
 
 @RunWith(Cucumber.class)
 public class AdminLogin extends Utiles {
-	  String response;
-	   TestDataBuild payload ;
-	   Response postreq ;
-	   RequestSpecification sendreq;
-	   
-	 @Given("^Admin username and password$")
-	    public void admin_username_and_password() throws IOException   {
-		 payload = new TestDataBuild();
-	        sendreq = given().log().all().spec(requestSpecification()).body(payload.adminLoginPayload());
-	    }
-	 @When("^Admin calls post request$")
-	    public void admin_calls_post_request() {
-	          response = sendreq.when().log().all().post("/admin/adminLogin").then().log().all().assertThat().statusCode(200).
-	        		extract().response().asString();
-	    }	
-	    @Then("^response got successfully$")
-	    public void response_got_successfully()   {
-	        JsonPath js = json(response);
-	        String id = js.getString("admin._id");
-	        System.out.println(id);
-	        Assert.assertEquals(id, "60814422f9f6cb34941b539b");
-	    }
+	String response;
+	TestDataBuild payload ;
+	Response postreq ;
+	RequestSpecification sendreq;
+
+	@Given("^Admin username and password$")
+	public void admin_username_and_password() throws IOException   {
+		payload = new TestDataBuild();
+		sendreq = given().log().all().spec(requestSpecification()).body(payload.adminLoginPayload());
+	}
+	@When("^Admin calls post request$")
+	public void admin_calls_post_request() {
+		response = sendreq.when().log().all().post("/admin/adminLogin").then().log().all().assertThat().statusCode(200).
+				extract().response().asString();
+	}	
+	@Then("^response got successfully$")
+	public void response_got_successfully()   {
+		JsonPath js = json(response);
+		String id = js.getString("admin._id");
+		System.out.println(id);
+		Assert.assertEquals(id, "60814422f9f6cb34941b539b");
+	}
 }

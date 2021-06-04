@@ -1,8 +1,10 @@
 package Resources;
 
 import Pojo.AddClass;
+import Pojo.AddSchool;
 import Pojo.AdminLogin;
 import Pojo.OTPVerify;
+import Pojo.Poc;
 import Pojo.StudentLogin;
 
 public class TestDataBuild {
@@ -57,5 +59,30 @@ public class TestDataBuild {
 		
 	}
 	
+	public AddSchool addSchoolPayload()
+	{
+		AddSchool add = new AddSchool();
+		add.setAbout("abot");
+		add.setAddress("address");
+		add.setBoard("6080383d4f76e30009add9ed");
+		add.setEmail("demo@gmail.com");
+		add.setInstitute_type("HighSchool");
+		add.setLocation("housr");
+		add.setName("Quality Assurance");
+		add.setPhone("9159977099");
+		add.setType("private");
+		
+		Poc pc = new Poc();
+		pc.setAddress("dassa");
+		pc.setDesignation("QA");
+		pc.setEmail("kre@gmail.com");
+		pc.setName("Santhosh");
+		pc.setPhone("9159977099");
+		add.setPoc(pc);
+		
+		
+		return add;
+	}
+		
 
 }

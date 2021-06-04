@@ -7,8 +7,6 @@ public enum APIResources {
 	GetBoardAPI(""),
 	DeleteBoardAPI("/board/deleteBoard");
 	
-	
-	
 	public String resource;
 	
 	APIResources(String resource) 
